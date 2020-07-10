@@ -37,6 +37,15 @@ namespace AdLibStory
             var forFun = Console.ReadLine();
             Console.WriteLine($"OK {userName}, tell me, where do you see yourself in 3 years?");
             var seeThree = Console.ReadLine();
+
+            Console.WriteLine($"Thanks {userName}! Here are your responses!");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+            Console.WriteLine($"My name is: {userName}");
+            Console.WriteLine($"My Zodiac sign is: {zodiacSign}");
+            Console.WriteLine($"I like to: {forFun}");
+            Console.WriteLine($"In 3 years, I see myself: {seeThree}");
+
         }
     }
 }
